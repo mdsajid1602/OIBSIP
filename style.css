@@ -1,0 +1,143 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+nav{
+  display: flex;
+  width: 100%;
+  background-color: black;
+  justify-content: space-between;
+}
+nav ul{
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  height: 65px;
+  background-color: black;
+  color: white; 
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+
+.solar{
+  width: 160px;
+  padding: 0 8px;
+  font-size: 1.7rem;
+  margin-left: 30px;
+  color: sandybrown;
+  font-weight: bolder;
+}
+
+.system{
+  opacity: .8;
+  font-size: 1.2rem;
+}
+
+
+/* secand navbar */
+
+.secand-nav ul{
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  height: 45px;
+  background-color: #17171B;
+  color: white;
+  justify-content: center;
+  
+}
+.secand-nav ul li{
+  padding: 0 12px;
+}
+
+.options{
+  background-color: #17171B;
+  color: white;
+  border: none;
+  font-size: 1rem;
+}
+
+/* Containts */
+
+.containt{
+  background: #17171b;
+  color: white;
+}
+.main-solar-syatem img{
+  height: 350px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* About System */
+.about{
+  margin: 0px 90px 0px;
+  background: #17171b;
+  
+}
+
+
+.about-sun{
+  display: flex;
+  margin-top: 35px;
+}
+.about-sun img{
+  width: 500px;
+  height: 500px;
+  background-size: cover;
+  border-radius:3%;
+}
+.paragraph{
+  /* display: flex; */
+  align-items: center;
+  margin: 200px 30px
+  
+}
+.paragraph p{
+  margin-top: 20px;
+  opacity: .9;
+}
+
+/* satellite cards */
+.cards{
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+}
+
+.satellite img{
+  width: 300px;
+  height: 300px;
+  margin: 15px;
+}
+.satellite h2{
+  margin-left: 20px;
+}
+.satellite h3{
+  margin-left: 20px;
+}
+.language{
+  border: none;
+  background-color: black;
+  color: white;
+  font-size: 1.2rem;
+  margin-right: 30px;
+  opacity: .9;
+}
+footer ul{
+  display: flex;
+  justify-content: center;
+  height: 80px;
+  background: #000;
+  align-items: center;
+  opacity: .9;
+}
+footer ul li{
+  list-style-type: none;
+  margin : 0px 10px
+  
+}
